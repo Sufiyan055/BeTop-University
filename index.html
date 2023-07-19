@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Swiper js link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/scss/style.css" />
+    <title>BeTop University</title>
+  </head>
+  <body>
+    <!-- Header part start -->
+    <header class="header">
+      <a href="" class="logo"
+        ><img src="images/BeTopLogo.webp" alt="BeTop Logo" width="25" />BeTop</a
+      >
+
+      <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="index.html">home</a>
+        <a href="HtmlFiles/about.html">courses</a>
+        <a href="HtmlFiles/courses.html">about</a>
+        <a href="HtmlFiles/contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- Acoount Part section starts -->
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+      <div class="buttons">
+        <span class="btn active login-btn">Login</span>
+        <span class="btn register-btn">Register</span>
+      </div>
+
+      <form action="" class="login-form active">
+        <h3>Login now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember-me</label>
+          <a href="#">forget password</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+
+      <form action="" class="register-form">
+        <h3>register now</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <input
+          type="password"
+          placeholder="Conform your password"
+          class="box"
+        />
+        <input type="submit" value="register now" class="btn" />
+      </form>
+    </div>
+    <!-- Acoount Part section ends -->
+
+    <!-- home section starts -->
+    <section class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/speaking.webp) no-repeat"
+          >
+            <div class="content">
+              <h3>The best University BeTop Excellence find here!</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae unde a commodi illum eum facere!
+              </p>
+              <a href="" class="btn">get started</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/university.webp) no-repeat"
+          >
+            <div class="content">
+              <h3>The best University BeTop Excellence find here!</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae unde a commodi illum eum facere!
+              </p>
+              <a href="" class="btn">get started</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/study.webp) no-repeat"
+          >
+            <div class="content">
+              <h3>The best University BeTop Excellence find here!</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae unde a commodi illum eum facere!
+              </p>
+              <a href="" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- Some Words For Betop -->
+    <div class="wordsHere">
+      <span class="span1"></span>
+      <strong>Qualified your self from BeTop university</strong> <br />
+      <strong>Find here quality education and practical knowledge</strong>
+      <br />
+      <strong>Learn and enhance your skills</strong> <br />
+      <strong>Prepare your self to contribute to the world</strong>
+      <span class="span2"></span>
+    </div>
+    <!-- Some Words For Betop -->
+
+    <!-- home courses slider section starts -->
+    <section class="home-courses">
+      <h1 class="heading">Our popular courses</h1>
+      <div class="swiper home-courses-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/web.webp" width="400" alt="" />
+              <h3>web development</h3>
+            </div>
+            <div class="content">
+              <h3>Web development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/machine learn.webp" width="400" alt="" />
+              <h3>Machine Learning</h3>
+            </div>
+            <div class="content">
+              <h3>web development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/softwaretest.webp" width="400" alt="" />
+              <h3>Software development</h3>
+            </div>
+            <div class="content">
+              <h3>Software development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/datasci.webp" width="400" alt="" />
+              <h3>Data Science</h3>
+            </div>
+            <div class="content">
+              <h3>Data Science</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/cybersecurity.webp" width="400" alt="" />
+              <h3>Cyber Security</h3>
+            </div>
+            <div class="content">
+              <h3>Cyber Security</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/game dev.webp" width="400" alt="" />
+              <h3>Game Development</h3>
+            </div>
+            <div class="content">
+              <h3>Game Development</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- home courses slider section ends -->
+
+    <!-- Apply On Background  -->
+
+    <div class="applybg">
+      <div class="apply">
+        <p>Take your first step to your goal by appling now</p>
+        <p>Be a part of one of the Top University</p>
+        <button>Apply Now</button>
+      </div>
+    </div>
+
+    <!-- Apply On Background  -->
+
+    <!-- Footer Section starts here -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3 class="flexFh3">
+            <img src="images/BeTopLogo.webp" alt="BeTop Logo" />BeTop
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
+            rerum.
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html" class="link">home</a>
+          <a href="HtmlFiles/about.html" class="link">about</a>
+          <a href="HtmlFiles/courses.html" class="link">courses</a>
+          <a href="HtmlFiles/contact.html" class="link">contact</a>
+        </div>
+        <div class="box">
+          <h3>useful links</h3>
+          <a href="#" class="link">help center</a>
+          <a href="#" class="link">ask questions</a>
+          <a href="#" class="link">send feedback</a>
+          <a href="#" class="link">private policy</a>
+          <a href="#" class="link">terms of use</a>
+        </div>
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest upadates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+      <div class="credit">
+        created by <span>BeTop University</span> | all rights reserved!
+      </div>
+    </section>
+    <!-- Footer Section ends -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
