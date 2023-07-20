@@ -35,7 +35,7 @@ section {
 
 .heading-link {
   text-align: center;
-  background: url(../images/university.webp) no-repeat;
+  background: url(images/university.webp) no-repeat;
   background-size: cover;
   background-position: center;
   height: 30rem;
@@ -761,7 +761,7 @@ section {
 
 /* On Home Background */
 .applybg {
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/apply.webp);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/apply.webp);
   height: 40rem;
   background-position: center;
   background-repeat: no-repeat;
